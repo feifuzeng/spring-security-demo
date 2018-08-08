@@ -27,7 +27,7 @@ public class LoginController {
 			@RequestParam(value = "error", required = false) boolean error,
 			ModelMap model) {
 
-		logger.debug("Received request to show login page");
+		logger.info("Received request to show login page");
 
 		if (error == true) {
 			// Assign an error message
@@ -47,7 +47,7 @@ public class LoginController {
 	@RequestMapping(value = "/denied", method = RequestMethod.GET)
 	public String getDeniedPage() {
 
-		logger.debug("Received request to show denied page");
+		logger.info("Received request to show denied page");
 
 		return "deniedpage";
 	}

@@ -18,7 +18,7 @@ public class MainController {
 	 */
 	@RequestMapping(value = "/common", method = RequestMethod.GET)
 	public String getCommonPage() {
-		logger.debug("Received request to show common page");
+		logger.info("Received request to show common page");
 		return "commonpage";
 	}
 
@@ -29,7 +29,7 @@ public class MainController {
 	 */
 	@RequestMapping(value = "/admin", method = RequestMethod.GET)
 	public String getAadminPage() {
-		logger.debug("Received request to show admin page");
+		logger.info("Received request to show admin page");
 		return "adminpage";
 
 	}
