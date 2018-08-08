@@ -11,7 +11,7 @@
 	<p>每个人都能访问的页面.</p>
 	<a href="/spring-security-demo/main/admin"> Go AdminPage </a>
 	<br />
-	<a href="/spring-security-demo/auth/login">退出登录</a>
+	<a href="/spring-security-demo/auth/logout">退出登录</a>
 
 </body>
 </html>
